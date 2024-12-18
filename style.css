@@ -1,6 +1,6 @@
 body{
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 .headerleft{
     justify-content: start;
@@ -17,8 +17,9 @@ body{
 } 
 .headerright{
     display: flex;
-    justify-content: space-between;
-    width: 18%;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-right: 0px;
     align-items: center;
 }
 #navbar{
@@ -38,6 +39,14 @@ body{
 .cards , .row .card , .banner {
     border: none;
     background-color: rgb(245, 245, 245);
+}
+.cards :hover
+{
+   box-shadow: 0 4px 8px;
+}
+.cards img
+{
+    width: 110%;
 }
 .liveevents {
      display: flexbox; 
